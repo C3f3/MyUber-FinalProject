@@ -3,6 +3,7 @@ package grafoDirigido;
 import java.util.Scanner;
 
 public class clsGrafoDirigido extends clsAbsGrafoD{
+	
 	public clsGrafoDirigido(int ordenGrafo){
 		super(ordenGrafo);
 	}
