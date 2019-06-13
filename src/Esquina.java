@@ -1,13 +1,13 @@
 
 public class Esquina {
-	private Calle calle1,calle2;
+	private Calle callev,calleh;
 	private int x,y;
 
-	public Esquina(int x,int y,Calle calle1,Calle calle2) {
+	public Esquina(int x,int y,Calle callev,Calle calleh) {
 		this.x=x;
 		this.y=y;
-		this.calle1=calle1;
-		this.calle2=calle2;
+		this.callev=callev;
+		this.calleh=calleh;
 	}
 
 	public int getX() {
@@ -26,20 +26,20 @@ public class Esquina {
 		this.y = y;
 	}
 
-	public Calle getCalle1() {
-		return calle1;
+	public Calle getCalleV() {
+		return this.callev;
 	}
 
-	public void setCalle1(Calle calle1) {
-		this.calle1 = calle1;
+	public void setCalleV(Calle callev) {
+		this.callev = callev;
 	}
 
-	public Calle getCalle2() {
-		return calle2;
+	public Calle getCalleH() {
+		return calleh;
 	}
 
-	public void setCalle2(Calle calle2) {
-		this.calle2 = calle2;
+	public void setCalleH(Calle calle2) {
+		this.calleh = calle2;
 	}
 	
 

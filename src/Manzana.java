@@ -1,7 +1,18 @@
 
-public class Manzana {
+public class Manzana{
 	private  Esquina EsqSupIzq,EsqSupDer,EsqInfDer,EsqInfIzq;
 	private int id;
+	
+	
+	
+	public Manzana(int id,Esquina esqSupIzq, Esquina esqSupDer, Esquina esqInfDer, Esquina esqInfIzq ) {
+		super();
+		EsqSupIzq = esqSupIzq;
+		EsqSupDer = esqSupDer;
+		EsqInfDer = esqInfDer;
+		EsqInfIzq = esqInfIzq;
+		this.id = id;
+	}
 	public Esquina getEsqSupIzq() {
 		return EsqSupIzq;
 	}
