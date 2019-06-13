@@ -2,7 +2,7 @@ package grafoDirigido;
 import contenedores.*;
 import recursos.*;
 //extends clsAbsGrafo implements OperacionesG1{
-public abstract class clsAbsGrafoD extends clsAbsGrafo implements OperacionesG{
+public abstract class clsAbsGrafoD extends clsAbsGrafo implements OperacionesGD{
 	
 	protected clsMatrizGrafo matrizCostoF,matrizCaminoF;
 	protected clsListaDoubleLinkedL listaDistancia, listaCamino, listaSolucion;
