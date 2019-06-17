@@ -147,7 +147,7 @@ public abstract class clsAbsGrafoD extends clsAbsGrafo implements OperacionesGD{
 			for(int j=0;j<ordenGrafo;j++){
 				if(i!=j){
 					costoF=(double)matrizCostoF.devolver(i, j);
-					if(costoF!=infinito){System.out.println("Costo m�nimo de "+i+" hasta "+j+": "+costoF);}
+					if(costoF!=infinito){System.out.println("Costo minimo de "+i+" hasta "+j+": "+costoF);}
 				}
 				
 				
