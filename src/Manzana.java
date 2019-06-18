@@ -2,8 +2,7 @@
 public class Manzana{
 	private  Esquina EsqSupIzq,EsqSupDer,EsqInfDer,EsqInfIzq;
 	private int id;
-	
-	
+	private Square manz;
 	
 	public Manzana(int id,Esquina esqSupIzq, Esquina esqSupDer, Esquina esqInfDer, Esquina esqInfIzq ) {
 		super();
