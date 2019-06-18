@@ -20,8 +20,8 @@ public class Square
     public Square()
     {
         size = 30;
-        xPosition = 60;
-        yPosition = 50;
+        xPosition = 10;
+        yPosition = 10;
         color = "red";
         isVisible = false;
     }
@@ -82,7 +82,7 @@ public class Square
     public void moveHorizontal(int distance)
     {
         erase();
-        xPosition += distance;
+        xPosition =xPosition + distance;
         draw();
     }
 
@@ -92,7 +92,7 @@ public class Square
     public void moveVertical(int distance)
     {
         erase();
-        yPosition += distance;
+        yPosition =yPosition+ distance;
         draw();
     }
 

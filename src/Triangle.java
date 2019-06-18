@@ -22,8 +22,8 @@ public class Triangle
     {
         height = 30;
         width = 40;
-        xPosition = 50;
-        yPosition = 15;
+        xPosition = 10;
+        yPosition =10;
         color = "green";
         isVisible = false;
     }
@@ -84,7 +84,7 @@ public class Triangle
     public void moveHorizontal(int distance)
     {
         erase();
-        xPosition += distance;
+        xPosition =xPosition+ distance;
         draw();
     }
 
@@ -94,7 +94,7 @@ public class Triangle
     public void moveVertical(int distance)
     {
         erase();
-        yPosition += distance;
+        yPosition = yPosition+  distance;
         draw();
     }
 
